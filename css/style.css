@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5rem;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #fff, rgba(94, 88, 88, 0.322)) , url("../img/img3.jpg")
+}
+
+.intro-image__text {
+    text-align: center;
+    padding: 15rem;
+    overflow: hidden;
+}
+
+.intro-image__text a{
+    color: rgba(28, 28, 175, 0.404);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid rgba(100, 148, 237, 0.568);
+    padding: 0.5rem;
+    font-size: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: rgba(128, 128, 0, 0.199);
+    box-shadow: 0 0.5rem 1rem black;
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    box-shadow: 0 0.5rem 1rem black;
+    transform: translateY(5px);
+}
+
+.intro-text {
+    background-color: rgba(65, 153, 225, 0.955);
+    color: wheat;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    margin-top: -5rem;
+    clip-path: polygon(27% 26%, 67% 26%, 100% 23%, 100% 84%, 70% 78%, 25% 78%, 0 83%, 0 24%);
+}
+
+.heading-solid {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(209, 200, 187, 0.829);
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5rem;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #fff, rgba(94, 88, 88, 0.322)) , url("../img/img1.jpg")
+}
+
+.packaging-image__text {
+    text-align: center;
+    padding: 15rem;
+}
+
+.packaging-image__text a {
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 2px solid rgba(100, 148, 237, 0.568);
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    background-color: rgba(65, 153, 225, 0.955);
+    color: #dbe4e4d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    clip-path: polygon(27% 26%, 67% 26%, 100% 23%, 100% 84%, 70% 78%, 25% 78%, 0 83%, 0 24%);
+    margin-top: -4rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -5rem;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.473), rgba(94, 88, 88, 0.322)) , url("../img/img2.jpg")
+}
+
+.tutorials-image__text {
+    text-align: center;
+    padding: 15rem;
+}
+
+.tutorials-image__text a {
+    color: wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid rgba(100, 148, 237, 0.568);
+    padding: 0.5rem;
+    font-size: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    height: 200px;
+    color: blanchedalmond;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.footer ul li a:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: rgba(65, 153, 225, 0.955);
+    height: 225px;
+}
